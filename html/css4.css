@@ -1,0 +1,262 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(irongolem.jpeg);
+      background-size: clamp(1080px, 100%, 5405px) auto ;
+      background-repeat: no-repeat;
+      background-position: top center ;
+      background-attachment: fixed;
+      padding: 100;
+    }
+
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        bottom: 0px;
+        position: relative;
+        border-radius:  4px 4px 0 0;
+      }
+.hrv2{
+    position: relative;
+    left: -15px;
+    width: calc(100% + 38px);
+      margin-top: 60px;
+ margin-bottom: -20px;
+ margin-left: -5px;
+}
+
+      h1 {
+        font-size: 75px;
+        margin-bottom: 50px;
+      }
+
+      nav {
+        background-color: #333;
+        color: #fff;
+        display: block;
+        text-align: center;
+        padding: 15px 0;
+        position: sticky;
+        top:0px;
+        z-index: 10;
+        border-radius: 0 0 4px 4px;
+      }
+
+      nav a {
+        text-decoration: none;
+        display: inline-block;
+        width:150px;
+        height:50px;
+        line-height:50px;
+        color: #fff;
+        margin: auto 10px;
+        font-weight: bold;
+        border-radius: 2px;
+      }
+      nav a:hover:not(.active) {
+      background-color: #111;
+      }
+
+      .active {
+      background-color: #04AA6D;
+      }
+      .container {
+        max-width: 900px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+             .containerv {
+        position:relative;
+        max-width: 1000px;
+        min-height:450px;
+        min-width:30px;
+        height:auto;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        background-image:url('grazz1.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #a6a6a6;
+}
+
+            .containerb {
+                display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        transform: translateY(20%);
+        width: 100%;
+        height: 100px;
+        margin: -10px -0px;
+        margin-top: -26px;
+        background-color: inherit;
+        padding: 0px;
+        border-radius: 0px;
+      }
+        .containerz{
+        max-width: 1000px;
+        margin: -28px auto;
+        background-color: #caecec;
+        margin-top:-8px;
+        padding: 20px;
+        border-radius: 2px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-size:21px;
+        line-height: 1.5;
+            }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+
+      }
+      #info{
+        display:none;
+        margin:10px auto;
+        margin-top: -15px;
+        width:800px;
+        text-align:center;
+        font-size:22px;
+        font-weight:bold;
+      }
+      #ibutton{
+      position:relative;
+      background-color: inherit;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0px 16px;
+      transition: 0.3s;
+      margin-right: 0px;
+      margin-left: -50px;
+      border-radius: 5px;
+      float:left
+      }
+.tab {
+  overflow: hidden;
+  border: 1px solid #c1c1c1;
+  background-color: #f1f1f1;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* center items horizontally */
+  align-items: center; /* center items vertically */
+  padding: 5px 0px; /*create space around the buttons */
+  border-radius: 5px 5px 0 0; /* Rounded top corners */
+}
+
+.tabbuttons:not(#ibutton){
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  transition: 0.3s;
+  font-size: 20px;
+  margin-right: 1px;
+  margin-left: 1px;
+    border-radius: 5px;
+}
+.tab button:hover:not(#prev):not(#next):not(.tablinks.active) {
+  background-color: #ddd;
+}
+
+    .tablinks {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      float: left;
+      padding: 20px 24px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .tablinks.active {
+      background-color: #ccc !important;
+    }
+
+    .tabcontent {
+      display: none;
+      padding-top: 10px;
+      border: 1px solid #ccc;
+      border-top: none;
+      clear: both;
+      border-radius: 0 0 5px 5px; /* Rounded bottom corners */
+      background-color: #DF6000;
+    }
+    .dropdown {
+  transition-timing-function: ease-in-out
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+        top: 50%;
+      left: 50%;
+      transform: translate(-50%, 430%);
+      text-align: center;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  max-width: 700px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  border: 2px solid #ccc;
+  padding: 0px 20px;
+}
+
+.chest{
+  width:250px;
+  height:auto;
+ position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-47%, -83%) rotate(-1deg);;
+      text-align: center;
+
+}
+
+.chest:hover{
+content:url(chestflipopen.png);
+}
+
+.chest:hover + .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+}
+.imgs1{
+  max-width: 100%;
+  min-height: auto;
+  display: inline-block;
+}
+      .header-image {
+        max-width: 25%;
+        position: absolute;
+        top: -10px;
+        left: 10px;
+        content: url(ironingot.gif);
+      }
+
+      .header-image-right {
+        max-width: 25%;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        content: url(ironingot.gif);
+      }

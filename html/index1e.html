@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="css1e.css">
+  <script src="chamber1e.js"></script>
+  </head>
+  <body>
+    <header>
+    <a>
+      <img src="" alt="Header Image" class="header-image">
+      </a>
+      <h1>Iron Farms</h1>
+      <p>
+      <img src="" alt="Header Image" class="header-image-right" onclick="changeImage()">
+      </p>
+      <hr class="hrv2">
+    </header>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="index1h.html" >1 Chamber:air</a>
+      <a href="index1e.html" class="active">1 Chamber:ground</a>
+      <a href="index4.html">4 Chamber</a>
+      <a href="index14.html" >1-4 Design</a>
+    </nav>
+
+       <br>
+     <br>
+<section class="container">
+
+<section class="containerv" >
+      <h2 style="color:#fff; font-size:50px; text-align:center; margin-top:-23px; z-index:3;
+      position:absolute; top: 50%; left: 50%; transform: translate(-50%, -380%);
+      ">1 Chamber</h2>
+      <section class="dropdown">
+<img src="chestflipclosed.png" class="chest" id="chestImage" >
+  <section class="dropdown-content" id="dropdownContent">
+	<h4>
+6 trapdoors; 20 slabs(+ones on the stairs); 3 beds;water;lava; 1 fence gate; 1 boat; 8 sings; 3 villagers; 1 zombie; 1/2 hoppers; 1 chest;
+	</h4>
+  </section>
+</section>
+  </section>
+
+<section class="container" id="info">
+Day 1 iron farm. In the ground.<br>
+Only active at night.<br>
+If iron golems spawn outside of the killing chamber, surround the outside with slabs or torches.<br>
+The resources needed to build the farm are located in the chest above.
+</section>
+  <section class="tab">
+    <button onclick="showInfo()" id="ibutton">
+<img src="I-img.png" style="max-width:26px; height:auto;">
+  </button>
+    <button  class="tablinks tabbuttons" id="prev" onclick="showTab('prev')">Previous</button>
+<button class="tablinks tabbuttons active" data-tab="step1" onclick="showTab('step1')">1</button>
+    <button  class="tablinks tabbuttons" data-tab="step2" onclick="showTab('step2')">2</button>
+    <button  class="tablinks tabbuttons" data-tab="step3" onclick="showTab('step3')">3</button>
+    <button  class="tablinks tabbuttons" data-tab="step4" onclick="showTab('step4')">4</button>
+    <button  class="tablinks tabbuttons" data-tab="step5" onclick="showTab('step5')">5</button>
+    <button  class="tablinks tabbuttons" id="next" onclick="showTab('next')">Next</button>
+  </section>
+
+  <section class="tabcontent" id="step1" style="display: block;">
+      <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 1
+    </h2>
+</section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+Dig a 9x9, 1-block-deep hole.<br>
+In the center, dig a 7-deep hole and place a trapdoor at the bottom.<br>
+Expand the hole to a 3x3 area that is 7 blocks long in total, with the trapdoor as the shorter edge.<br>
+On the opposite wall where the trapdoor is, on the right line, create a 2x2x2 area, and then dig the top center ceiling for 2 blocks long.
+</section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="1che/1s1.png" class="imgs1">
+  </section>
+  <section class="tabcontent" id="step2">
+    <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 2
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+Where the trapdoor is placed, put a bed with the pillow facing the 2x2x2 extension and two others on either side. <br>
+Place a temporary block on the center bed's pillow and put a trapdoor on top of it. <br>
+Then, place five trapdoors on top of the remaining bed parts.<br>
+Dig the floor between the beds and the 2x2x2 extension, replacing them with slabs.<br>
+On the floor of the extension, also place slabs.<br>
+Then, dig a staircase to the surface near the extension and cover each step with a slab.
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="1che/1s2.png" class="imgs1">
+  </section>
+  <section class="tabcontent" id="step3">
+    <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 3
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+Place a boat in the extension and ensure that its hitbox ends before the final pixel.<br>
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="1che/1s3.png" class="imgs1">
+  </section>
+  <section class="tabcontent" id="step4">
+      <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 4
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+Lure 3 villagers into their beds at night and waterlog the trapdoor in the middle.<br>
+Then lure a zombie into the boat and block the villagers' sight from it.
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="1che/1s4.png" class="imgs1">
+  </section>
+  <section class="tabcontent" id="step5">
+    <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 5
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+On the surface, in the 9x9 hole, place water in the corners.<br>
+Block the hole in the center with a hopper and connect it to a chest.<br>
+1 block above the hopper, place an opened fence gate; on its sides, place 4 signs.<br>
+On top of these signs, place another 4, and on the fence gate, place lava.<br>
+Now, remove the blocks covering the villager, and at night, iron golems should start spawning.
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="1che/1s5.png" class="imgs1">
+  </section>
+
+</section>
+    <script src="chest.js"></script>
+     <script>
+function showInfo() {
+    var infoElement = document.getElementById("info");
+    var computedStyle = window.getComputedStyle(infoElement);
+
+    if (computedStyle.display === "none") {
+        infoElement.style.display = "block";
+    } else {
+        infoElement.style.display = "none";
+    }
+}
+
+     </script>
+  </body>
+</html>

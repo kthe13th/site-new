@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="css14.css">
+  <script src="chamber1-4.js"></script>
+  </head>
+  <body>
+    <header>
+    <a>
+      <img src="" alt="Header Image" class="header-image">
+      </a>
+      <h1>Iron Farms</h1>
+      <p>
+      <img src="" alt="Header Image" class="header-image-right" onclick="changeImage()">
+      </p>
+      <hr class="hrv2">
+    </header>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="index1h.html" >1 Chamber:air</a>
+      <a href="index1e.html">1 Chamber:ground</a>
+      <a href="index4.html">4 Chamber</a>
+      <a href="index14.html" class="active">1-4 Design</a>
+    </nav>
+
+       <br>
+     <br>
+<section class="container">
+
+<section class="containerv" >
+      <h2 style="color:#fff; font-size:50px; text-align:center; margin-top:-23px; z-index:3;
+      position:absolute; top: 50%; left: 50%; transform: translate(-50%, -380%);
+      ">1 Chamber</h2>
+      <section class="dropdown">
+<img src="chestflipclosed.png" class="chest" id="chestImage" >
+  <section class="dropdown-content" id="dropdownContent">
+	<h4>
+30 ladders;1 hopper;2 chests;20 trapdoors;8 slabs;12 beds;3 signs; 4 zombies;12 villagers;lava;water;4 boats; 25  torches
+	</h4>
+  </section>
+</section>
+  </section>
+
+<section class="container" id="info">
+This farm consists of four identical modules, stackable up to four with a shared center.<br>
+For one module, you will need three villagers and one zombie.<br>
+The farm is located in the ground.
+The resources needed to build all 4 modules of the farm are located in the chest above.
+</section>
+  <section class="tab">
+    <button onclick="showInfo()" id="ibutton">
+<img src="I-img.png" style="max-width:26px; height:auto;">
+  </button>
+    <button  class="tablinks tabbuttons" id="prev" onclick="showTab('prev')">Previous</button>
+<button class="tablinks tabbuttons active" data-tab="step1" onclick="showTab('step1')">1</button>
+    <button  class="tablinks tabbuttons" data-tab="step2" onclick="showTab('step2')">2</button>
+    <button  class="tablinks tabbuttons" data-tab="step3" onclick="showTab('step3')">3</button>
+    <button  class="tablinks tabbuttons" data-tab="step4" onclick="showTab('step4')">4</button>
+    <button  class="tablinks tabbuttons" data-tab="step5" onclick="showTab('step5')">5</button>
+    <button  class="tablinks tabbuttons" data-tab="step6" onclick="showTab('step6')">6</button>
+    <button  class="tablinks tabbuttons" data-tab="step7" onclick="showTab('step7')">7</button>
+        <button  class="tablinks tabbuttons" data-tab="step8" onclick="showTab('step8')">8</button>
+    <button  class="tablinks tabbuttons" id="next" onclick="showTab('next')">Next</button>
+  </section>
+
+  <section class="tabcontent" id="step1" style="display: block;">
+      <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 1
+    </h2>
+</section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+    Dig a 3x3 hole that is 2 blocks deep.<br>
+    On the fourth block from the edges of the hole, place a block at the center.<br>
+    Choose a quadrant and lower it by 2 blocks.<br>
+    Place 8 open face gates on the initial 3x3 center, leaving the center free.<br>
+        Dig a 30-block hole below the fence gates.
+</section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="14ch/1-4ch--1.png" class="imgs1">
+  </section>
+  <section class="tabcontent" id="step2">
+    <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 2
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+    Choose one side at the bottom and dig a 3x3x3 extension, going one block down.<br>
+    On the right side of the extension, place a chest.<br>
+    Dig a block to the right of the big hole to place a hopper connected to the chest.<br>
+    One block above the hopper, place a sign on the wall.<br>
+    Place two signs on both walls of the hole to contain the lava.<br>
+
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="14ch/1-4ch--2.png" class="imgs1">
+  </section>
+  <section class="tabcontent" id="step3">
+    <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 3
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+    Place the lava in the hole.<br>
+    In the opposite corner on the ground, place water.<br>
+    Block off the extension, allowing the chest to stay open, by placing a trapdoor or stairs.<br>
+    Ensure that the big hole remains 3x3 in size.<br>
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="14ch/1-4ch--3.png" class="imgs1">
+  </section>
+  <section class="tabcontent" id="step4">
+      <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 4
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+    On the deeper wall of the extension,center, dig to the surface using ladders.<br>
+    On the top place a trapdoor to keep mobs out.
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="14ch/1-4ch--4.png" class="imgs1">
+  </section>
+  <section class="tabcontent" id="step5">
+    <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 5
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+    On the surface, above the 2-deep hole, dig a 3-wide, 7-deep hole diagonally from the corner.<br>
+    Away from the center, dig a 3x3x2 extension.<br>
+    Place three beds against the wall, with the opening at the top.<br>
+    On the wall, place two slabs at the bottom half of the block and one slab above it.<br>
+    Extend the extension by another 2 blocks behind the slabs and trapdoor.<br>
+    Dig a staircase to the surface on the deeper wall.<br>
+    Place torches on each stair except the top one.
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="14ch/1-4ch--5.png" class="imgs1">
+  </section>
+
+  <section class="tabcontent" id="step6">
+      <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 6
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+Lure three villagers and a zombie into their designated places. <br>
+After nightfall, iron golems should start spawning.
+After that's done cover the 3x1 hole above the villagers with solid blocks.
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="14ch/1-4ch--6.png" class="imgs1">
+  </section>
+
+  <section class="tabcontent" id="step7">
+    <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Step 7
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+To expand the farm, dig into the other quadrants and place water in each one.<br>
+Mirror the villager cell so that they are pointing away from the drop chute.
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="14ch/1-4ch--7.png" class="imgs1">
+  </section>
+   <section class="tabcontent" id="step8">
+    <hr style="
+    width: calc(100% + -1px);
+ margin-left: 0px;  margin-top:-10px; height: 3px; background-color: #444; border: none;">
+    <section class="containerb">
+   <h2 style="text-align: center; font-size:36px;">
+    Top view
+    </h2>
+</section>
+<hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:30px; height: 3px; background-color: #444; border: none;">
+ <section class="containerz">
+After expanding to its full potential, it can produce 1,200 iron ingots per hour.
+       </section>
+    <hr style="
+    width:100%;
+ margin-left: 0px;  margin-top:29px; margin-bottom:0px; height: 3px; background-color: #444444; border: none;">
+ <img src="14ch/1-4ch--9.png" class="imgs1">
+  </section>
+
+</section>
+    <script src="chest.js"></script>
+     <script>
+function showInfo() {
+    var infoElement = document.getElementById("info");
+    var computedStyle = window.getComputedStyle(infoElement);
+
+    if (computedStyle.display === "none") {
+        infoElement.style.display = "block";
+    } else {
+        infoElement.style.display = "none";
+    }
+}
+
+     </script>
+  </body>
+</html>
